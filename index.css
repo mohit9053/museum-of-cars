@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(45, 45, 45) ;
+}
+.navbar{
+   padding: 0.3rem .3rem;
+}
+#mainnavbar .navbar-brand {
+    color: red;
+    font-size: 1.6rem;
+    font-family: 'Smooch', cursive;
+font-family: 'Titillium Web', sans-serif;
+font-weight: bolder;
+letter-spacing: 1.5px;
+}
+#mainnavbar #navbarTogglerDemo01 a{
+font-size: 1.15rem;
+}
+#mainnavbar #navbarTogglerDemo01 a:hover{
+    color: whitesmoke;
+}
+#container img{
+width: 100%;
+max-height: 100vh;
+}
+#container h2{
+    color: white;
+    font-size: 4rem;
+    text-shadow:  3px 3px 12px red;
+    
+}
+p{
+    line-height: 2;
+}
+section{
+    margin-top:2.3rem;
+}
+footer{
+    margin-top: 3rem;
+}
+@media(max-width:1200px){
+    #container #content{
+        margin-top: 40px;
+    }
+}
